@@ -18,7 +18,7 @@ Adds tests to the methods in the client application above so that developers are
 These methods work as expected with different inputs given to them.
 
 
-### App.tsx and graph.tsx patches
+### App.tsx and graph.tsx
 
 Here I was tasked with fixing the client-side web application so that it displays a graph that automatically updates as it gets data from the server application.
 
@@ -27,7 +27,7 @@ My graph displayed in the client-side web application is a continuously updating
 It is also able to aggregate duplicated data retrieved from the server.
 
 
-### Graph3.tsx.patch
+### Graph3.tsx
 Last part of my formal VI internship.
 
 The purpose of this graph is to monitor and determine when a trading opportunity may arise as a result of the temporary weakening of a correlation between two stock prices. Given this graph, the trader should be able to quickly and easily notice when the ratio moves too far from the average historical correlation. After several trials I assumed a threshold of +/-5% of the 12 month historical average ratio.
